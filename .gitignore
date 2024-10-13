@@ -1,0 +1,25 @@
+# Node.js関連の不要ファイルを無視する
+node_modules/
+
+# TypeScriptの出力ディレクトリ（例えば `dist/` や `build/`）
+dist/
+build/
+
+# TypeScriptのキャッシュファイル
+*.tsbuildinfo
+
+# VSCodeの設定関連
+.vscode/
+
+# OSやエディタが生成する不要ファイル
+.DS_Store
+Thumbs.db
+
+# npmログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ローカルの環境変数ファイル
+.env
+
